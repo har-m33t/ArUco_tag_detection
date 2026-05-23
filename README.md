@@ -185,11 +185,6 @@ small standalone ArUco markers.
 - Sub-pixel accurate corner positions from the chessboard geometry
 - Robust to partial occlusion and uneven lighting
 
-**Why standalone ArUco at runtime:**
-- Small, compact, and easy to print and attach to posts
-- solvePnP only needs the four corners of a flat square marker
-- A ChArUco board is impractical to mount on a 20 cm post face
-
 ### Camera intrinsic calibration
 
 The camera matrix K maps 3D world points to 2D pixel positions:

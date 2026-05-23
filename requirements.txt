@@ -1,0 +1,9 @@
+# ArUco Tag Detection — Python Dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.10+
+
+opencv-contrib-python>=4.8.0   # includes cv2.aruco (full contrib build)
+numpy>=1.24.0
